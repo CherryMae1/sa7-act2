@@ -4,5 +4,4 @@ numbers.each do |i|
   puts i * 2
 end
 
-numbers.map! {|i| i * 3 }
-puts "#{numbers}"
+puts "#{numbers.map {|i| i * 3 }}"
